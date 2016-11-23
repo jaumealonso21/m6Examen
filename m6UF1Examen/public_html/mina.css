@@ -1,0 +1,36 @@
+/* Mina */
+
+* {
+    font-family: "Verdana";
+}
+span.cursiva {
+    font-style: italic;
+    font-size: 0.8em;
+}
+input.entMapa {
+    border: 0.1em solid #66ccff;
+    border-radius: 2em;
+    color: #993300;
+    font-weight: bold;
+    text-decoration: none;
+}
+input.entMapa:focus {
+    outline: 0px;
+}
+input.boto {
+    border: none;
+    border-radius: 2em;
+    background-color: #33ccff;
+    color: white;
+}
+input.boto:focus {
+    outline: 0px;
+}
+span#mapa  {
+    color: #993300;
+    font-weight: bold;
+}
+span#resultat {
+    color: #00cccc;
+    font-weight: bold;
+}

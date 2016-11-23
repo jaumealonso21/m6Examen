@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mina de Diamants</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="mina.css" />
+    <script src="mina.js"></script>
+  </head>
+  <body>
+    <h1>Mina de Diamants</h1>
+    <div><p>Inserta el mapa:<span class="cursiva">*si el deixes en blanc, ho crearà aleatòriament</span></p>
+      <input type="text" id="ent" class="entMapa" />
+      <input type="button" onclick="minaFinal(document.getElementById('ent').value);" value="Start!" class="boto" />
+    </div>
+    <div>
+      <p>Mina: <span id="mapa"></span></p>
+      <p>Contador: <span id="resultat"></span></p>
+    </div>
+  </body>
+</html>
